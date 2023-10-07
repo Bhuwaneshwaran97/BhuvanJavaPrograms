@@ -6,12 +6,12 @@ public class ReverseTheString {
 
 		String text = "Bhuvan", reversedString = "";
 		char ch;
-		
-		for (int i =0; i < text.length(); i++) {
+
+		for (int i = 0; i < text.length(); i++) {
 			ch = text.charAt(i);
-			reversedString = ch+reversedString;
+			reversedString = ch + reversedString;
 		}
-		
+
 		System.out.println(reversedString);
 	}
 
